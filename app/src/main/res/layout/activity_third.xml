@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ThirdActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:text="Third Activity"
+        />
+    <TextView
+        android:id="@+id/txt_msgThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:text="Besked"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    <ListView
+        android:id="@+id/lst_myList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/ed_newElement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tilføj element"/>
+    <Button
+        android:id="@+id/btn_addElement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tilføj"/>
+    <Button
+        android:id="@+id/btn_closeThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tilbage til main"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
